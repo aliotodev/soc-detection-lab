@@ -18,18 +18,6 @@ The lab will be used to generate security events, collect endpoint telemetry, cr
 - Develop basic security automation scripts
 - Document lessons learned throughout the project
 
-# Planned Architecture
-
-MacBook Pro
-│
-├── macOS Host
-│   └── Wazuh Agent
-│
-└── Ubuntu Server VM
-    └── Wazuh
-        ├── Manager
-        ├── Indexer
-        └── Dashboard
 # Skills Demonstrated
 
 This project is intended to develop practical experience with:
