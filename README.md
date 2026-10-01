@@ -1,37 +1,40 @@
-# m-soclab
-Hands on macOS SOC lab for security monitoring, threat detection, incident investigation, and MITRE ATT&amp;CK mapping using Wazuh and Linux.
+# SOC Detection Lab
+This is a project for cybersecurity focused on security monitoring, threat detection, incident investigation, and MITRE ATT&CK mapping using Windows, Linux, Sysmon, and Wazuh.
 
 # Project Overview
-The goal of this project is to build a foundation for creating and utilizing a small SOC environment using my MacBook as both the lab host and a monitored endpoint.
-
+The goal of this project is to build a foundation for creating and utilizing a small SOC environment.
 The lab will be used to generate security events, collect endpoint telemetry, create detections, investigate alerts, and document incidents using workflows similar to how SOC analysts do so.
+
 
 # Objectives
 - Deploy a Linux-based Wazuh SIEM environment
-- Monitor a macOS endpoint
-- Collect system and security telemetry
+- Monitor a Windows 11 endpoint
+- Collect Windows Event Logs and Sysmon telemetry
 - Generate controlled suspicious activity
 - Investigate alerts and determine root cause
 - Map observed activity to the MITRE ATT&CK framework
 - Create detection documentation
-- Write professional reports
+- Write professional incident reports
 - Develop basic security automation scripts
 - Document lessons learned throughout the project
 
 # Skills Demonstrated
-
 This project is intended to develop practical experience with:
 - SIEM Administration
-- Endpoint monitoring
+- Windows endpoint monitoring
+- Windows Event Log analysis
+- Sysmon
 - Log analysis
 - Threat detection
 - Incident response
 - Threat hunting
 - Linux administration
-- macOS security
+- Windows security
 - MITRE ATT&CK
 - Detection engineering
 - Security documentation
-- Bash and Python automation
+- Bash, Python, and PowerShell
 
-This project is actively being developed and doucmented as part of my transition from IT support into a specialized cybersecurity role.
+# Project Status
+_Phase 1:_ Lab infrastructure setup
+
