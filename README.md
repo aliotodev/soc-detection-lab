@@ -29,7 +29,7 @@ After Wazuh refreshed its vulnerability data, the previous GIMP findings were no
 ## Documentation
 - [Lab Build](documentation/lab-build.md)
 - [Lessons Learned](documentation/lessons-learned.md)
-- [Vulnerability Remediation](documentation/vulnerability-remediation.md)
+- [Vulnerability Remediation](documentation/vulnerabilitypatching.md)
 
 
 # Objectives
