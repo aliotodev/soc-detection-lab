@@ -36,5 +36,7 @@ This project is intended to develop practical experience with:
 - Bash, Python, and PowerShell
 
 # Project Status
-_Phase 1:_ Lab infrastructure setup
+The core lab infrastructure is operational. The Wazuh server is running on Ubuntu and runs without flaws after testing over a 24 hour uptime period.
+
+Wazuh has also identified several software vulnerabilities, providing an opportunity to practice vulnerability validation, and remediation.
 
