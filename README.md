@@ -7,13 +7,13 @@ The lab will be used to generate security events, collect endpoint telemetry, cr
 
 ## Investigations
 
-### INC-001 — PowerShell File Creation
+### [INC-001 — PowerShell File Creation](incidents/INC-001-powershell-file-creation.md)
 Investigated PowerShell process activity and correlated Sysmon process creation with file creation telemetry.
 
-### INC-002 — Registry Run Key Persistence
+### [INC-002 — Registry Run Key Persistence](incidents/INC-002-registry-run-key-persistence.md)
 Simulated Windows Run-key persistence and investigated registry and process telemetry associated with the activity.
 
-### INC-003 — PowerShell DNS and Network Activity
+### [INC-003 — PowerShell DNS and Network Activity](incidents/INC-003-powershell-dns-network-activity.md)
 Correlated Sysmon DNS and network connection events using Process ID and Process GUID to reconstruct outbound PowerShell activity.
 
 ## Vulnerability Management
@@ -25,6 +25,11 @@ One remediation case involved GIMP, where multiple CVEs were associated with an 
 The application was upgraded from version `3.0.6-1` to version `3.2`.
 
 After Wazuh refreshed its vulnerability data, the previous GIMP findings were no longer present, validating successful remediation.
+
+## Documentation
+- [Lab Build](documentation/lab-build.md)
+- [Lessons Learned](documentation/lessons-learned.md)
+- [Vulnerability Remediation](documentation/vulnerability-remediation.md)
 
 
 # Objectives
@@ -98,20 +103,3 @@ The lab currently provides visibility into:
 Three controlled investigation scenarios have been completed and documented using Sysmon and Wazuh.
 
 Future development will focus on custom detection rules, automation, and additional attack simulations.
-
-## Key Skills Demonstrated
-
-- Wazuh SIEM deployment and administration
-- Windows endpoint monitoring
-- Sysmon configuration
-- Windows event analysis
-- Process tree analysis
-- Registry persistence investigation
-- DNS and network telemetry correlation
-- Vulnerability management
-- CVE remediation and validation
-- MITRE ATT&CK mapping
-- Linux server administration
-- PowerShell
-- Troubleshooting telemetry pipelines
-- Security documentation
